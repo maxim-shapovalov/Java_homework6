@@ -35,9 +35,9 @@ import java.util.Map;
             }
         }
         public static void main(String[] args) {
-            add_record("Иванов Иван Иванович", "+71235664545");
-            add_record("Петров Петр Петрович", "+75671239898");
-            add_record("Иванов Иван Иванович", "+73219152020");
+            add_record("Ivanov Ivan", "+71235664545");
+            add_record("Petrov Petr", "+75671239898");
+            add_record("Ivanov Ivan", "+73219152020");
             print_records(sortByPhones2(phonebook));
         }
     }
